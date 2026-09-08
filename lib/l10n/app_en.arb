@@ -1,0 +1,85 @@
+{
+  "@@locale": "en",
+  "appTitle": "Hush",
+  "onboardingTitle": "Listen without opening WhatsApp",
+  "onboardingBody": "Pick the folder where WhatsApp keeps received voice notes. Hush only reads it: nothing is modified, and the sender is never told you listened.",
+  "onboardingHint": "It is usually Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Voice Notes, but the path changes between phones.",
+  "onboardingChooseFolder": "Choose folder",
+  "listEmptyTitle": "No voice notes here",
+  "listEmptyBody": "No audio files were found in the folder you picked. If you chose a folder higher up, try picking the WhatsApp Voice Notes folder itself.",
+  "listRefresh": "Refresh",
+  "accessLostTitle": "Access to the folder was lost",
+  "accessLostBody": "The permission was revoked, or the folder is no longer reachable. Pick it again to keep listening.",
+  "chooseFolderAgain": "Pick the folder again",
+  "errorNoteGone": "This voice note is no longer in the folder.",
+  "errorNoteUnplayable": "This voice note cannot be played.",
+  "errorInsufficientStorage": "Not enough space to prepare this voice note.",
+  "errorLocalStore": "Could not read the saved listening state.",
+  "errorUnknown": "Something went wrong.",
+  "actionRetry": "Retry",
+  "badgeUnplayed": "New",
+  "playerPlay": "Play",
+  "playerPause": "Pause",
+  "playerSkipBack": "Back {seconds} seconds",
+  "playerSkipForward": "Forward {seconds} seconds",
+  "playerSpeed": "Playback speed",
+  "playerSpeedValue": "{speed}×",
+  "@playerSpeedValue": {
+    "placeholders": {
+      "speed": {
+        "type": "String"
+      }
+    }
+  },
+  "durationUnknown": "--:--",
+  "groupToday": "Today",
+  "groupYesterday": "Yesterday",
+  "settingsTitle": "Settings",
+  "settingsSourceFolder": "Source folder",
+  "settingsChangeFolder": "Change folder",
+  "settingsAppearance": "Appearance",
+  "settingsThemeSystem": "Follow system",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsLanguage": "Language",
+  "settingsLanguageSystem": "Follow system",
+  "settingsLanguageItalian": "Italiano",
+  "settingsLanguageEnglish": "English",
+  "@playerSkipBack": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@playerSkipForward": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "timeUnknown": "Time unknown",
+  "notificationsBlockedTitle": "Playback controls are off",
+  "notificationsBlockedBody": "Without notification permission the audio still plays, but there are no controls outside the app.",
+  "openSystemSettings": "Open settings",
+  "voiceNoteSemanticLabel": "Voice note, {time}, lasting {duration}",
+  "@voiceNoteSemanticLabel": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "playerProgressLabel": "Position: {position}",
+  "@playerProgressLabel": {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      }
+    }
+  }
+}

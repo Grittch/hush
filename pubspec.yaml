@@ -1,5 +1,5 @@
 name: hush
-description: "A new Flutter project."
+description: "Ascolta i vocali ricevuti su WhatsApp senza aprire WhatsApp."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -34,6 +34,25 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  saf_util: ^3.1.0
+  saf_stream: ^4.0.1
+  just_audio: ^0.10.6
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.5
+  flutter_riverpod: ^3.4.3
+  riverpod_annotation: ^4.0.7
+  freezed_annotation: ^3.1.0
+  drift: ^2.34.4
+  drift_flutter: ^0.3.1
+  audio_service: ^0.18.19
+  intl: 0.20.2
+  logger: ^2.8.0
+  flutter_localizations:
+    sdk: flutter
+  crypto: ^3.0.7
+  # Bloccato sulla 12: la 13 compila contro Android SDK 37, che l'SDK manager
+  # installa come `android-37.0` mentre Gradle cerca `android-37`.
+  permission_handler: ">=12.0.3 <13.0.0"
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +64,11 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  build_runner: ^2.15.1
+  riverpod_generator: ^4.0.9
+  freezed: ^4.0.0-dev.3
+  drift_dev: ^2.34.6
+  flutter_native_splash: ^2.4.8
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -56,6 +80,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  generate: true
 
   # To add assets to your application, add an assets section, like this:
   # assets:

@@ -1,0 +1,85 @@
+{
+  "@@locale": "it",
+  "appTitle": "Hush",
+  "onboardingTitle": "Ascolta senza aprire WhatsApp",
+  "onboardingBody": "Scegli la cartella dove WhatsApp tiene i vocali ricevuti. Hush la legge e basta: non modifica nulla, e al mittente non arriva alcun segnale che li hai ascoltati.",
+  "onboardingHint": "Di solito è Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Voice Notes, ma il percorso cambia da telefono a telefono.",
+  "onboardingChooseFolder": "Scegli cartella",
+  "listEmptyTitle": "Nessun vocale qui",
+  "listEmptyBody": "Nella cartella che hai scelto non ci sono file audio. Se hai scelto una cartella piu in alto, prova a selezionare direttamente la cartella WhatsApp Voice Notes.",
+  "listRefresh": "Aggiorna",
+  "accessLostTitle": "Accesso alla cartella perduto",
+  "accessLostBody": "Il permesso è stato revocato, o la cartella non è più raggiungibile. Riselezionala per continuare ad ascoltare.",
+  "chooseFolderAgain": "Riseleziona la cartella",
+  "errorNoteGone": "Questo vocale non è più nella cartella.",
+  "errorNoteUnplayable": "Questo vocale non può essere riprodotto.",
+  "errorInsufficientStorage": "Spazio insufficiente per preparare questo vocale.",
+  "errorLocalStore": "Non è stato possibile leggere lo stato di ascolto salvato.",
+  "errorUnknown": "Qualcosa è andato storto.",
+  "actionRetry": "Riprova",
+  "badgeUnplayed": "Nuovo",
+  "playerPlay": "Riproduci",
+  "playerPause": "Pausa",
+  "playerSkipBack": "Indietro di {seconds} secondi",
+  "playerSkipForward": "Avanti di {seconds} secondi",
+  "playerSpeed": "Velocità di riproduzione",
+  "playerSpeedValue": "{speed}×",
+  "@playerSpeedValue": {
+    "placeholders": {
+      "speed": {
+        "type": "String"
+      }
+    }
+  },
+  "durationUnknown": "--:--",
+  "groupToday": "Oggi",
+  "groupYesterday": "Ieri",
+  "settingsTitle": "Impostazioni",
+  "settingsSourceFolder": "Cartella sorgente",
+  "settingsChangeFolder": "Cambia cartella",
+  "settingsAppearance": "Aspetto",
+  "settingsThemeSystem": "Come il sistema",
+  "settingsThemeLight": "Chiaro",
+  "settingsThemeDark": "Scuro",
+  "settingsLanguage": "Lingua",
+  "settingsLanguageSystem": "Come il sistema",
+  "settingsLanguageItalian": "Italiano",
+  "settingsLanguageEnglish": "English",
+  "@playerSkipBack": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@playerSkipForward": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "timeUnknown": "Orario non disponibile",
+  "notificationsBlockedTitle": "Controlli di riproduzione disattivati",
+  "notificationsBlockedBody": "Senza il permesso per le notifiche l'audio si sente comunque, ma non ci sono controlli fuori dall'app.",
+  "openSystemSettings": "Apri impostazioni",
+  "voiceNoteSemanticLabel": "Vocale, {time}, durata {duration}",
+  "@voiceNoteSemanticLabel": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "playerProgressLabel": "Posizione: {position}",
+  "@playerProgressLabel": {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      }
+    }
+  }
+}

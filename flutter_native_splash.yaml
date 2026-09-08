@@ -1,0 +1,23 @@
+# Solo Android: gli altri target dello scaffold non sono supportati.
+flutter_native_splash:
+  android: true
+  ios: false
+  web: false
+
+  color: "#F2EDE4"
+  color_dark: "#1F1B17"
+
+  # Pre Android 12 l'immagine viene centrata a dimensione naturale.
+  image: assets/splash/splash_icon.png
+  image_dark: assets/splash/splash_icon_dark.png
+
+  android_gravity: center
+
+  # La SplashScreen API di Android 12+ disegna l'icona su un canvas da 288dp
+  # ritagliato a un cerchio da 192dp: le immagini sono composte con il disegno
+  # al 60% del lato, quindi non vengono tagliate.
+  android_12:
+    image: assets/splash/splash_icon.png
+    image_dark: assets/splash/splash_icon_dark.png
+    color: "#F2EDE4"
+    color_dark: "#1F1B17"
